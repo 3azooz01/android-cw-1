@@ -1,0 +1,27 @@
+public class HelloWorld{
+
+     public static void main(String []args){
+        System.out.println("Hello World");
+         
+        int x = 10;
+        int y = 20;
+        String A = "Abdulaziz";
+        String B = " Abdullah";
+        String C = " مسار Android";
+        
+        System.out.println(x + y);
+        System.out.println(x * y);
+        System.out.println(x == y);
+        System.out.println(x != y);
+        System.out.println(x >= y);
+        System.out.println(x <= y);
+        
+    if (x < 17){
+        System.out.println("Its time for anime");
+    }else{
+        System.out.println("It time for gaming");
+     }
+     
+     System.out.println(A + B + C);
+     
+}}
